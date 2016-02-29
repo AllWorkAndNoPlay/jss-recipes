@@ -28,7 +28,7 @@
 	<key>MinimumVersion</key>
 	<string>0.4.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.hjuutilaninen.pkg.MPlayerX</string>
+	<string>io.github.hjuutilainen.pkg.MPlayerX</string>
 	<key>Process</key>
 	<array>
 		<dict>
