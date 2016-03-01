@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest version of MplayerX and makes a pkg of it then uploads it to the JSS.</string>
+	<string>Downloads the latest version of MakerBot Desktop and uploads it to the JSS.</string>
 	<key>Identifier</key>
 	<string>com.github.jss-recipes.jss.MakerBot</string>
 	<key>Input</key>
@@ -28,7 +28,7 @@
 	<key>MinimumVersion</key>
 	<string>0.4.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.groob.download.makerbot</string>
+	<string>com.github.groob.pkg.makerbot</string>
 	<key>Process</key>
 	<array>
 		<dict>
