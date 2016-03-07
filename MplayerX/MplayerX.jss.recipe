@@ -21,7 +21,7 @@
 		<key>POLICY_TEMPLATE</key>
 		<string>PolicyTemplate.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
-		<string>MplayerX MPlayerX is armed by FFmpeg and MPlayer, which means it could handle any media format in the world without extra plug-ins or codec packages.</string>
+		<string>MplayerX is armed by FFmpeg and MPlayer, which means it could handle any media format in the world without extra plug-ins or codec packages.</string>
 		<key>SELF_SERVICE_ICON</key>
 		<string>MplayerX.png</string>
 	</dict>
