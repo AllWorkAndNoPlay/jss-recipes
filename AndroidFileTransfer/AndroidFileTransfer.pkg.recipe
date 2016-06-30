@@ -19,16 +19,14 @@
     <array>
         <dict>
             <key>Processor</key>
-            <string>PlistReader</string>
+            <string>Versioner</string>
             <key>Arguments</key>
             <dict>
-                <key>info_path</key>
+                <key>input_plist_path</key>
                 <string>%pathname%/Android File Transfer.app/Contents/Info.plist</string>
                 <key>plist_keys</key>
-                <dict>
-                    <key>CFBundleVersion</key>
-                    <string>version</string>
-                </dict>
+                <string>version</string>
+                <string>CFBundleVersion</string>
             </dict>
         </dict>
         <dict>
