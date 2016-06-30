@@ -23,7 +23,7 @@
             <key>Arguments</key>
             <dict>
                 <key>info_path</key>
-                <string>%pathname%/Android File Transfer.app</string>
+                <string>%pathname%/Android File Transfer.app/Contents</string>
                 <key>plist_keys</key>
                 <dict>
                     <key>CFBundleVersion</key>
