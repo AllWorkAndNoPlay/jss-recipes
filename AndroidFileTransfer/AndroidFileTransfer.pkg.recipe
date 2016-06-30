@@ -19,11 +19,16 @@
     <array>
         <dict>
             <key>Processor</key>
-            <string>AppDmgVersioner</string>
+            <string>PlistReader</string>
             <key>Arguments</key>
             <dict>
-                <key>dmg_path</key>
-                <string>%pathname%</string>
+                <key>info_path</key>
+                <string>%pathname%/Android File Transfer.app</string>
+                <key>plist_keys</key>
+                <dict>
+                    <key>CFBundleVersion</key>
+                    <string>version</string>
+                </dict>
             </dict>
         </dict>
         <dict>
