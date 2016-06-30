@@ -3,29 +3,29 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Downloads latest AndroidFileTransfer disk image and builds a package.</string>
+    <string>Downloads latest Android File Transfer disk image and builds a package.</string>
     <key>Identifier</key>
-    <string>com.github.autopkg.pkg.AndroidFileTransfer</string>
+    <string>com.github.autopkg.pkg.androidfiletransfer</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>AndroidFileTransfer</string>
+        <string>Android File Transfer</string>
     </dict>
     <key>MinimumVersion</key>
-    <string>0.2.0</string>
+    <string>0.6.0</string>
     <key>ParentRecipe</key>
     <string>com.github.aysiu.download.androidfiletransfer</string>
     <key>Process</key>
     <array>
         <dict>
             <key>Comment</key>
-            <string>Get Android File Transfer  version from .app</string>
+            <string>Get Android File Transfer version from .app</string>
             <key>Processor</key>
             <string>Versioner</string>
             <key>Arguments</key>
             <dict>
                 <key>input_plist_path</key>
-                <string>%pathname%/Android File Transfer.app/Contents/Info.plist</string>
+                <string>%pathname%/%NAME%.app/Contents/Info.plist</string>
                 <key>plist_version_key</key>
                 <string>CFBundleVersion</string>
             </dict>
@@ -50,9 +50,9 @@
             <key>Arguments</key>
             <dict>
                 <key>source_path</key>
-                <string>%pathname%/Android File Transfer.app</string>
+                <string>%pathname%/%NAME%.app</string>
                 <key>destination_path</key>
-                <string>%pkgroot%/Applications/Android File Transfer.app</string>
+                <string>%pkgroot%/Applications/%NAME%.app</string>
             </dict>
         </dict>
         <dict>
@@ -83,8 +83,6 @@
                     <string>%RECIPE_CACHE_DIR%</string>
                     <key>id</key>
                     <string>org.android.androidfiletransfer.pkg</string>
-                    <key>resources</key>
-                    <string>Resources</string>
                     <key>options</key>
                     <string>purge_ds_store</string>
                     <key>chown</key>
