@@ -66,6 +66,8 @@
                 <string>%RECIPE_CACHE_DIR%/PackageInfo</string>
                 <key>pkgtype</key>
                 <string>flat</string>
+                <key>version</key>
+				<string>%version%</string>
             </dict>
         </dict>
         <dict>
