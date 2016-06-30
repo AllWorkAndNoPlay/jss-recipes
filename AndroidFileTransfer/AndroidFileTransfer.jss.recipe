@@ -15,7 +15,7 @@
 		<key>GROUP_TEMPLATE</key>
 		<string>SmartGroupTemplate.xml</string>
 		<key>NAME</key>
-		<string>VLC</string>
+		<string>AndroidFileTransfer</string>
 		<key>POLICY_CATEGORY</key>
 		<string>Testing</string>
 		<key>POLICY_TEMPLATE</key>
@@ -23,7 +23,7 @@
 		<key>SELF_SERVICE_DESCRIPTION</key>
 		<string>Browse and transfer files between your Mac computer and your Android device.</string>
 		<key>SELF_SERVICE_ICON</key>
-		<string>AndroidFileTransfer.png</string>
+		<string>%NAME%.png</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.4.0</string>
