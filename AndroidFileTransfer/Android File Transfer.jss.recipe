@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads latest AndroidFileTransfer disk image, and builds a package, and uploads to the JSS.</string>
+	<string>Downloads latest Android File Transfer disk image, and builds a package, and uploads to the JSS.</string>
 	<key>Identifier</key>
-	<string>com.github.jss-recipes.jss.AndroidFileTransfer</string>
+	<string>com.github.jss-recipes.jss.androidfiletransfer</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
@@ -15,7 +15,7 @@
 		<key>GROUP_TEMPLATE</key>
 		<string>SmartGroupTemplate.xml</string>
 		<key>NAME</key>
-		<string>AndroidFileTransfer</string>
+		<string>Android File Transfer</string>
 		<key>POLICY_CATEGORY</key>
 		<string>Testing</string>
 		<key>POLICY_TEMPLATE</key>
@@ -23,12 +23,12 @@
 		<key>SELF_SERVICE_DESCRIPTION</key>
 		<string>Browse and transfer files between your Mac computer and your Android device.</string>
 		<key>SELF_SERVICE_ICON</key>
-		<string>AndroidFileTransfer.png</string>
+		<string>%NAME%.png</string>
 	</dict>
 	<key>MinimumVersion</key>
-	<string>0.4.0</string>
+	<string>0.5.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.autopkg.pkg.AndroidFileTransfer</string>
+	<string>com.github.autopkg.pkg.androidfiletansfer</string>
 	<key>Process</key>
 	<array>
 		<dict>
