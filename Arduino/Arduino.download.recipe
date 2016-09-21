@@ -5,13 +5,11 @@
 	<key>Comment</key>
 	<string>Created with Recipe Robot v1.0.3 (https://github.com/homebysix/recipe-robot)</string>
 	<key>Description</key>
-	<string>Downloads the latest version of Arduino.</string>
+	<string>Downloads the latest version of Arduino from Arduino.org, not Arduino.cc.</string>
 	<key>Identifier</key>
 	<string>com.github.allworkandnoplay.download.Arduino</string>
 	<key>Input</key>
 	<dict>
-		<key>DOWNLOAD_URL</key>
-		<string>http://download.arduino.org/IDE/1.7.11/arduino-1.7.11.org-macosx-java7.zip</string>
 		<key>NAME</key>
 		<string>Arduino</string>
 	</dict>
@@ -20,12 +18,16 @@
 	<key>Process</key>
 	<array>
 		<dict>
+			<string>URLTextSearcher</string>
 			<key>Arguments</key>
 			<dict>
-				<key>filename</key>
-				<string>%NAME%.zip</string>
 				<key>url</key>
-				<string>%DOWNLOAD_URL%</string>
+				<string>http://www.arduino.org/downloads</string>
+				<key>re_pattern</key>
+				<string>(https?://download.arduino.org/IDE/[0-9\.]/arduino[0-9a-zA-Z\.]+\.zip)</string>
+				<key>result_output_var_name</key>
+				<string>url</string>
+			</dict>
 			</dict>
 			<key>Processor</key>
 			<string>URLDownloader</string>
