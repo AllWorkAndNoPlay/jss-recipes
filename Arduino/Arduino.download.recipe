@@ -24,7 +24,7 @@
 				<key>url</key>
 				<string>http://www.arduino.org/downloads</string>
 				<key>re_pattern</key>
-				<string>(https?://download.arduino.org/IDE/[.]/arduino[.]zip)</string>
+				<string>(http://download.arduino.org/IDE/[0-9\.]+\/arduino-[0-9\.]+\.org-macosx-java[0-9\.]+\.zip)</string>
 				<key>result_output_var_name</key>
 				<string>url</string>
 			</dict>
