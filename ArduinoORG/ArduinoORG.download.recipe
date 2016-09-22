@@ -16,6 +16,7 @@
 	<key>Process</key>
 	<array>
 		<dict>
+			<key>Processor</key>
 			<string>URLTextSearcher</string>
 			<key>Arguments</key>
 			<dict>
