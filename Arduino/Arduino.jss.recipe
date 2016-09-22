@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Arduino from arduino.org Not arduino.cc and imports it into your JSS.</string>
 	<key>Identifier</key>
-	<string>com.github.jss-recipes.jss.Arduino</string>
+	<string>com.github.allworkandnoplay.jss.Arduino</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
