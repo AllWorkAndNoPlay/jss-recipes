@@ -2,8 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Comment</key>
-	<string>Created with Recipe Robot v1.0.3 (https://github.com/homebysix/recipe-robot)</string>
 	<key>Description</key>
 	<string>Downloads the latest version of Arduino from Arduino.org, not Arduino.cc.</string>
 	<key>Identifier</key>
@@ -18,6 +16,7 @@
 	<key>Process</key>
 	<array>
 		<dict>
+			<key>Processor</key>
 			<string>URLTextSearcher</string>
 			<key>Arguments</key>
 			<dict>
@@ -26,9 +25,10 @@
 				<key>re_pattern</key>
 				<string>(https?:\/\/download.arduino.org\/IDE\/[\d\.]+\/arduino-[\d\.]+\.org-macosx-java[\d\.]+\.zip)</string>
 				<key>result_output_var_name</key>
-				<string>url</string>
+				<string>DOWNLOAD_URL</string>
 			</dict>
-			</dict>
+		</dict>
+		<dict>
 			<key>Processor</key>
 			<string>URLDownloader</string>
 		</dict>
@@ -48,17 +48,6 @@
 			</dict>
 			<key>Processor</key>
 			<string>Unarchiver</string>
-		</dict>
-		<dict>
-			<key>Arguments</key>
-			<dict>
-				<key>input_path</key>
-				<string>%RECIPE_CACHE_DIR%/%NAME%/Applications/Arduino.app</string>
-				<key>requirement</key>
-				<string>identifier "org.arduino.Arduino" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = ZEA2FJM5U4</string>
-			</dict>
-			<key>Processor</key>
-			<string>CodeSignatureVerifier</string>
 		</dict>
 		<dict>
 			<key>Arguments</key>
