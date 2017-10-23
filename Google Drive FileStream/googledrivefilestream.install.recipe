@@ -11,7 +11,7 @@
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>Arduino</string>
+		<string>googledrivefilestream</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.6.1</string>
@@ -41,7 +41,7 @@
 						<key>destination_path</key>
 						<string>/Applications</string>
 						<key>source_item</key>
-						<string>Arduino.app</string>
+						<string>Google Drive File Stream.app</string>
 					</dict>
 				</array>
 			</dict>

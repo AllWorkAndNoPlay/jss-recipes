@@ -13,7 +13,7 @@
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>apps/%NAME%</string>
 		<key>NAME</key>
-		<string>Arduino</string>
+		<string>googledrivefilestream</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
@@ -23,9 +23,9 @@
 			<key>description</key>
 			<string>Open-source IDE for Arduino.</string>
 			<key>developer</key>
-			<string>ARDUINO SRL</string>
+			<string>googledrivefilestream</string>
 			<key>display_name</key>
-			<string>Arduino</string>
+			<string>googledrivefilestream</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
