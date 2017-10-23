@@ -5,7 +5,7 @@
 	<key>Comment</key>
 	<string>Created with Recipe Robot v1.0.3 (https://github.com/homebysix/recipe-robot)</string>
 	<key>Description</key>
-	<string>Downloads the latest version of Arduino and copies it to your DeployStudio packages.</string>
+	<string>Downloads the latest version of filestream and copies it to your DeployStudio packages.</string>
 	<key>Identifier</key>
 	<string>com.github.allworkandnoplay.ds.googledrivefilestream</string>
 	<key>Input</key>

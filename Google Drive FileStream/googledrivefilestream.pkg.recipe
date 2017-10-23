@@ -5,7 +5,7 @@
 	<key>Comment</key>
 	<string>Created with Recipe Robot v1.0.3 (https://github.com/homebysix/recipe-robot)</string>
 	<key>Description</key>
-	<string>Downloads the latest version of Arduino and creates a package.</string>
+	<string>Downloads the latest version of Google Drive File Stream and copies a package.</string>
 	<key>Identifier</key>
 	<string>com.github.allworkandnoplay.pkg.googledrivefilestream</string>
 	<key>Input</key>

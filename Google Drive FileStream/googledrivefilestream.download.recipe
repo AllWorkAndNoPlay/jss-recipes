@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Downloads the current release of Google Drive FS.</string>
+    <string>Downloads the current release of Google Drive File Stream and Verify Developer Signing.</string>
     <key>Identifier</key>
     <string>com.github.allworkandnoplay.download.googledrivefilestream</string>
     <key>Input</key>

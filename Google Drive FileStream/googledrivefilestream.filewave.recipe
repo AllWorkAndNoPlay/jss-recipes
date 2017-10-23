@@ -5,7 +5,7 @@
 	<key>Comment</key>
 	<string>Created with Recipe Robot v1.0.3 (https://github.com/homebysix/recipe-robot)</string>
 	<key>Description</key>
-	<string>Downloads the latest version of Arduino, creates a fileset, and copies it into your FileWave Server.</string>
+	<string>Downloads the latest version of Google Drive File Stream, creates a fileset, and copies it into your FileWave Server.</string>
 	<key>Identifier</key>
 	<string>com.github.allworkandnoplay.filewave.googledrivefilestream</string>
 	<key>Input</key>
