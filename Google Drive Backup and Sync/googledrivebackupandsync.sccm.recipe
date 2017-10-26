@@ -5,7 +5,7 @@
 	<key>Comment</key>
 	<string>Created with Recipe Robot v1.0.3 (https://github.com/homebysix/recipe-robot)</string>
 	<key>Description</key>
-	<string>Downloads the latest version of Google Drive File Stream and copies it into your SCCM Server.</string>
+	<string>Downloads the latest version of Google Drive Backup and Sync and copies it into your SCCM Server.</string>
 	<key>Identifier</key>
 	<string>com.github.allworkandnoplay.sccm.googledrivebackupandsync</string>
 	<key>Input</key>
