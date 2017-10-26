@@ -5,9 +5,9 @@
 	<key>Comment</key>
 	<string>Created with Recipe Robot v1.0.3 (https://github.com/homebysix/recipe-robot)</string>
 	<key>Description</key>
-	<string>Downloads the latest version of filestream and copies it to your DeployStudio packages.</string>
+	<string>Downloads the latest version of Google Drive Backup and Sync and copies it to your DeployStudio packages.</string>
 	<key>Identifier</key>
-	<string>com.github.allworkandnoplay.ds.googledrivefilestream</string>
+	<string>com.github.allworkandnoplay.ds.googledrivebackupandsync</string>
 	<key>Input</key>
 	<dict>
 		<key>DS_NAME</key>
@@ -15,12 +15,12 @@
 		<key>DS_PKGS_PATH</key>
 		<string>/Users/localadmin/reciperobot/deploystudio</string>
 		<key>NAME</key>
-		<string>googledrivefilestream</string>
+		<string>googledrivebackupandsync</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.6.1</string>
 	<key>ParentRecipe</key>
-	<string>com.github.allworkandnoplay.pkg.googledrivefilestream</string>
+	<string>com.github.allworkandnoplay.pkg.googledrivebackupandsync</string>
 	<key>Process</key>
 	<array>
 		<dict>
