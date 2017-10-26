@@ -16,7 +16,7 @@ from autopkglib import Processor, ProcessorError
 
 __all__ = "DriveBSURLProvider"
 
-class DriveURLProvider(Processor):
+class DriveBSURLProvider(Processor):
     description = "Provides latest Drive Google Drive Backup And Sync URL"
     input_variables = {}
     output_variables = {
