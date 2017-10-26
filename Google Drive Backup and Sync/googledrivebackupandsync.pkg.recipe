@@ -10,25 +10,21 @@
 	<string>com.github.allworkandnoplay.pkg.googledrivebackupandsync</string>
 	<key>Input</key>
 	<dict>
-		<key>BUNDLE_ID</key>
-		<string>org.google.googledrivebackupandsync</string>
 		<key>NAME</key>
 		<string>googledrivebackupandsync</string>
 	</dict>
-	<key>MinimumVersion</key>
-	<string>0.6.1</string>
 	<key>ParentRecipe</key>
 	<string>com.github.allworkandnoplay.download.googledrivebackupandsync</string>
 	<key>Process</key>
 	<array>
-		<dict>
-        	<key>Processor</key>
-       		<string>AppDmgVersioner</string>
-        	<key>Arguments</key>
-        	<dict>
-            	<key>dmg_path</key>
-            	<string>%pathname%</string>
-        	</dict>
+        <dict>
+            <key>Processor</key>
+            <string>AppDmgVersioner</string>
+            <key>Arguments</key>
+            <dict>
+                <key>dmg_path</key>
+                <string>%pathname%</string>
+            </dict>
         </dict>
         <dict>
             <key>Processor</key>
@@ -50,22 +46,9 @@
             <key>Arguments</key>
             <dict>
                 <key>source_path</key>
-                <string>%pathname%/Backup and Sync from Google.app</string>
+                <string>%pathname%/%app_name%</string>
                 <key>destination_path</key>
-                <string>%pkgroot%/Applications/Backup and Sync from Google.app</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>Processor</key>
-            <string>PkgInfoCreator</string>
-            <key>Arguments</key>
-            <dict>
-                <key>template_path</key>
-                <string>PackageInfoTemplate</string>
-                <key>infofile</key>
-                <string>%RECIPE_CACHE_DIR%/PackageInfo</string>
-                <key>pkgtype</key>
-                <string>flat</string>
+                <string>%pkgroot%/Applications/%app_name%</string>
             </dict>
         </dict>
         <dict>
@@ -73,16 +56,14 @@
             <string>PkgCreator</string>
             <key>Arguments</key>
             <dict>
-                <key>pkgname</key>
-                <string>%NAME%-%version%</string>
                 <key>pkg_request</key>
                 <dict>
-                    <key>pkgdir</key>
-                    <string>%RECIPE_CACHE_DIR%</string>
+                    <key>pkgname</key>
+                    <string>%NAME%-%version%</string>
+                    <key>version</key>
+                    <string>%version%</string>
                     <key>id</key>
-                    <string>com.google.googledrive.pkg</string>
-                    <key>resources</key>
-                    <string>Resources</string>
+                    <string>%bundleid%</string>
                     <key>options</key>
                     <string>purge_ds_store</string>
                     <key>chown</key>
