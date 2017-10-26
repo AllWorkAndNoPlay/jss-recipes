@@ -70,5 +70,5 @@ class DriveURLProvider(Processor):
         self.env["version"] = version
 
 if __name__ == "__main__":
-    PROCESSOR = DriveURLProvider()
+    PROCESSOR = DriveBSURLProvider()
     PROCESSOR.execute_shell()
