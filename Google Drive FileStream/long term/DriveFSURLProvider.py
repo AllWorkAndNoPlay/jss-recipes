@@ -3,8 +3,6 @@
 """
 From https://gist.github.com/opragel/681fbf91f2d2aba548bac83049bd891b#file-google_drivefs_update_checker-py
 by Owen Pragel
-
-Modified for Google Drive Backup And Sync
 """
 
 import xml.etree.ElementTree as ET
@@ -14,10 +12,10 @@ import urllib
 
 from autopkglib import Processor, ProcessorError
 
-__all__ = "DriveBSURLProvider"
+__all__ = "DriveFSURLProvider"
 
-class DriveBSURLProvider(Processor):
-    description = "Provides latest Drive Google Drive Backup And Sync URL"
+class DriveFSURLProvider(Processor):
+    description = "Provides latest Drive FileStream URL"
     input_variables = {}
     output_variables = {
         "url": {
@@ -33,12 +31,12 @@ class DriveBSURLProvider(Processor):
         params = {'cup2hreq': 'foo', 'cup2key': 'bar'}
 
         platform = 'mac'
-        os_version = '10.13'
+        os_version = '10.12'
 
         xml = """
         <request protocol="3.0" requestid="{%s}">
                 <os platform="%s" version="%s" />
-                <app appid="com.google.GoogleDrive" lang="en-us">
+                <app appid="com.google.drivefs" lang="en-us">
                         <updatecheck />
                 </app>
         </request>
@@ -70,5 +68,5 @@ class DriveBSURLProvider(Processor):
         self.env["version"] = version
 
 if __name__ == "__main__":
-    PROCESSOR = DriveBSURLProvider()
+    PROCESSOR = DriveFSURLProvider()
     PROCESSOR.execute_shell()
