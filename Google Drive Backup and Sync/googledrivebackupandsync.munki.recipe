@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Google Drive File Stream and imports it into Munki.</string>
 	<key>Identifier</key>
-	<string>com.github.allworkandnoplay.munki.googledrivefilestream</string>
+	<string>com.github.allworkandnoplay.munki.googledrivebackupandsync</string>
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
@@ -35,7 +35,7 @@
 	<key>MinimumVersion</key>
 	<string>0.6.1</string>
 	<key>ParentRecipe</key>
-	<string>com.github.allworkandnoplay.download.googledrivefilestream</string>
+	<string>com.github.allworkandnoplay.download.googledrivebackupandsync</string>
 	<key>Process</key>
 	<array>
 		<dict>

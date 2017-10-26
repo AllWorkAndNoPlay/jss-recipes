@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of filestream and copies it to your DeployStudio packages.</string>
 	<key>Identifier</key>
-	<string>com.github.allworkandnoplay.ds.googledrivefilestream</string>
+	<string>com.github.allworkandnoplay.ds.googledrivebackupandsync</string>
 	<key>Input</key>
 	<dict>
 		<key>DS_NAME</key>
@@ -20,7 +20,7 @@
 	<key>MinimumVersion</key>
 	<string>0.6.1</string>
 	<key>ParentRecipe</key>
-	<string>com.github.allworkandnoplay.pkg.googledrivefilestream</string>
+	<string>com.github.allworkandnoplay.pkg.googledrivebackupandsync</string>
 	<key>Process</key>
 	<array>
 		<dict>
