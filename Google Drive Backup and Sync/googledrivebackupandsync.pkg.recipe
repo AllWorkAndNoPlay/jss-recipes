@@ -11,7 +11,7 @@
 	<key>Input</key>
 	<dict>
 		<key>BUNDLE_ID</key>
-		<string>org.google.googledrivebackupandsync</string>
+		<string>com.google.googledrivebackupandsync</string>
 		<key>NAME</key>
 		<string>googledrivebackupandsync</string>
 	</dict>
@@ -99,5 +99,6 @@
                 </dict>
             </dict>
         </dict>
+    </array>
 </dict>
 </plist>
