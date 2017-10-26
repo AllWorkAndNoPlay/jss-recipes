@@ -33,7 +33,7 @@ class DriveBSURLProvider(Processor):
         params = {'cup2hreq': 'foo', 'cup2key': 'bar'}
 
         platform = 'mac'
-        os_version = '10.12'
+        os_version = '10.13'
 
         xml = """
         <request protocol="3.0" requestid="{%s}">
