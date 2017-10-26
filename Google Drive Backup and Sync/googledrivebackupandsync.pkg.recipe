@@ -13,7 +13,7 @@
 		<key>BUNDLE_ID</key>
 		<string>org.google.drivefilestream</string>
 		<key>NAME</key>
-		<string>googledrivefilestream</string>
+		<string>googledrivebackupandsync</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.6.1</string>

@@ -13,7 +13,7 @@
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>apps/%NAME%</string>
 		<key>NAME</key>
-		<string>googledrivefilestream</string>
+		<string>googledrivebackupandsync</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>

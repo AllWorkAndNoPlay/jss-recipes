@@ -15,7 +15,7 @@
 		<key>DS_PKGS_PATH</key>
 		<string>/Users/localadmin/reciperobot/deploystudio</string>
 		<key>NAME</key>
-		<string>googledrivefilestream</string>
+		<string>googledrivebackupandsync</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.6.1</string>
