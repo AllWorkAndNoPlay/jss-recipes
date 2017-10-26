@@ -21,19 +21,83 @@
 	<string>com.github.allworkandnoplay.download.googledrivebackupandsync</string>
 	<key>Process</key>
 	<array>
+		<dict>
+        	<key>Processor</key>
+       		<string>AppDmgVersioner</string>
+        	<key>Arguments</key>
+        	<dict>
+            	<key>dmg_path</key>
+            	<string>%pathname%</string>
+        	</dict>
+        </dict>
         <dict>
-            <key>Comment</key>
-            <string>Copy the embedded package out of the application bundle in the disk image.</string>
+            <key>Processor</key>
+            <string>PkgRootCreator</string>
             <key>Arguments</key>
             <dict>
-                <key>source_pkg</key>
-                <string>%pathname%/GoogleDriveFileStream.pkg</string>
-                <key>pkg_path</key>
-                <string>%RECIPE_CACHE_DIR%/%NAME%-%version%.pkg</string>
+                <key>pkgroot</key>
+                <string>%RECIPE_CACHE_DIR%/%NAME%</string>
+                <key>pkgdirs</key>
+                <dict>
+                    <key>Applications</key>
+                    <string>0775</string>
+                </dict>
             </dict>
-            <key>Processor</key>
-            <string>PkgCopier</string>
         </dict>
-	</array>
+        <dict>
+            <key>Processor</key>
+            <string>Copier</string>
+            <key>Arguments</key>
+            <dict>
+                <key>source_path</key>
+                <string>%pathname%/Backup and Sync from Google.app</string>
+                <key>destination_path</key>
+                <string>%pkgroot%/Applications/Backup and Sync from Google.app</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>Processor</key>
+            <string>PkgInfoCreator</string>
+            <key>Arguments</key>
+            <dict>
+                <key>template_path</key>
+                <string>PackageInfoTemplate</string>
+                <key>infofile</key>
+                <string>%RECIPE_CACHE_DIR%/PackageInfo</string>
+                <key>pkgtype</key>
+                <string>flat</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>Processor</key>
+            <string>PkgCreator</string>
+            <key>Arguments</key>
+            <dict>
+                <key>pkgname</key>
+                <string>%NAME%-%version%</string>
+                <key>pkg_request</key>
+                <dict>
+                    <key>pkgdir</key>
+                    <string>%RECIPE_CACHE_DIR%</string>
+                    <key>id</key>
+                    <string>com.google.googledrive.pkg</string>
+                    <key>resources</key>
+                    <string>Resources</string>
+                    <key>options</key>
+                    <string>purge_ds_store</string>
+                    <key>chown</key>
+                    <array>
+                        <dict>
+                            <key>path</key>
+                            <string>Applications</string>
+                            <key>user</key>
+                            <string>root</string>
+                            <key>group</key>
+                            <string>admin</string>
+                        </dict>
+                    </array>
+                </dict>
+            </dict>
+        </dict>
 </dict>
 </plist>
