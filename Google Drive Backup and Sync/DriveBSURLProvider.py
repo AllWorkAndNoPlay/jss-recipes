@@ -38,7 +38,7 @@ class DriveBSURLProvider(Processor):
         xml = """
         <request protocol="3.0" requestid="{%s}">
                 <os platform="%s" version="%s" />
-                <app appid="com.google.GoogleDrive" lang="en-us">
+                <app appid="com.google.Drive" lang="en-us">
                         <updatecheck />
                 </app>
         </request>
