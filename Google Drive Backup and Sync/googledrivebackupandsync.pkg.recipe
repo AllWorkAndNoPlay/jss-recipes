@@ -11,7 +11,7 @@
 	<key>Input</key>
 	<dict>
 		<key>BUNDLE_ID</key>
-		<string>org.google.drivefilestream</string>
+		<string>org.google.googledrivebackupandsync</string>
 		<key>NAME</key>
 		<string>googledrivebackupandsync</string>
 	</dict>
