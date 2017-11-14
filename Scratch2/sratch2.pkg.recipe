@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Scratch2 and deploys to computer.</string>
 	<key>Identifier</key>
-	<string>com.github.allworkandnoplay.pkg.Scratch2<</string>
+	<string>com.github.allworkandnoplay.pkg.Scratch2</string>
 	<key>Input</key>
 	<dict>
 		<key>BUNDLE_ID</key>
