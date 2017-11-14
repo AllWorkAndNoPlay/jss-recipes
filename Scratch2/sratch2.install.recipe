@@ -16,7 +16,7 @@
 	<key>MinimumVersion</key>
 	<string>0.6.1</string>
 	<key>ParentRecipe</key>
-	<string>com.github.aysiu.download.sratch2</string>
+	<string>com.github.aysiu.download.Scratch2</string>
 	<key>Process</key>
 	<array>
 		<dict>
