@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Download recipe for Scratch 2 Editor</string>
     <key>Identifier</key>
-    <string>com.github.allworkandnoplay.download.Scratch2</string>
+    <string>com.github.allworkandnoplay.download.scratch2</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
