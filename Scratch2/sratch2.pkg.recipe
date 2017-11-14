@@ -22,7 +22,7 @@
 	<key>Process</key>
 	<array>
 		<dict>
-		`<key>Processor</key>
+		   <key>Processor</key>
 		   <string>Copier</string>
 		   <key>Arguments</key>
 		   <dict>
