@@ -22,7 +22,7 @@
 	<key>Process</key>
 	<array>
 		<dict>
-			<key>Processor</key>
+		`<key>Processor</key>
 		   <string>Copier</string>
 		   <key>Arguments</key>
 		   <dict>
@@ -41,7 +41,6 @@
                 <string>%RECIPE_CACHE_DIR%/%NAME%/</string>
             </dict>
         </dict>
-        <dict>
 		<dict>
 			<key>Processor</key>
 			<string>CodeSignatureVerifier</string>
