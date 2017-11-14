@@ -34,11 +34,11 @@
 		</dict>
 		<dict>
 			<key>Processor</key>
-			<string>AppDmgVersioner</string>
+			<string>Versioner</string>
 			<key>Arguments</key>
 			<dict>
-				<key>dmg_path</key>
-				<string>%RECIPE_CACHE_DIR%/%NAME%/</string>
+				<key>input_plist_path</key>
+				<string>%RECIPE_CACHE_DIR%/%NAME%/%NAME%.app/Contents/Info.plis</string>
 			</dict>
 		</dict>
 		<dict>
