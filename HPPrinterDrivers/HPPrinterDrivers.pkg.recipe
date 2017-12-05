@@ -23,11 +23,11 @@
 	<array>
         <dict>
             <key>Comment</key>
-            <string>Copy the embedded package out of the application bundle in the disk image.</string>
+            <string>Copy the pkg with jss_importer friendly name.</string>
             <key>Arguments</key>
             <dict>
-                <key>pkg_path</key>
-                <string>%pathname%/</string>
+                <key>source_pkg</key>
+                <string>%pathname%/*.pkg</string>
                 <key>pkg_path</key>
                 <string>%RECIPE_CACHE_DIR%/%NAME%-%version%.pkg</string>
             </dict>
