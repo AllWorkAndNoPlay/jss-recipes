@@ -25,9 +25,9 @@
 			<key>Arguments</key>
 			<dict>
 				<key>flat_pkg_path</key>
-				<string>%PATHNAME%/downloads/%NAME%.pkg</string>
+				<string>%pathname%/downloads/%NAME%.pkg</string>
 				<key>destination_path</key>
-				<string>%PATHNAME%/%NAME%</string>
+				<string>%pathname%/%NAME%</string>
 			</dict>
 			<key>Processor</key>
 			<string>FlatPkgUnpacker</string>
@@ -36,7 +36,7 @@
 			<key>Arguments</key>
 			<dict>
 				<key>input_plist_path</key>
-				<string>%PATHNAME%/%NAME%/Applications/zoom.us.app/Contents/Info.plist</string>
+				<string>%pathname%/%NAME%/Applications/zoom.us.app/Contents/Info.plist</string>
 				<key>plist_version_key</key>
 				<string>CFBundleVersion</string>
 			</dict>
@@ -49,7 +49,7 @@
             <key>Arguments</key>
             <dict>
                 <key>source_pkg</key>
-                <string>%PATHNAME%/%NAME%.pkg</string>
+                <string>%pathname%/%NAME%.pkg</string>
                 <key>pkg_path</key>
                 <string>%RECIPE_CACHE_DIR%/%NAME%-%version%.pkg</string>
             </dict>
