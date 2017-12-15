@@ -27,12 +27,6 @@
                 <key>url</key>
                 <string>%DOWNLOAD_URL%</string>
                 <key>request_headers</key>
-                <dict>
-                        <key>user-agent</key>
-                        <string>%USER_AGENT%</string>
-                </dict>
-                <key>filename</key>
-                <string>%NAME%.pkg</string>
             </dict>
         </dict>
         <dict>
