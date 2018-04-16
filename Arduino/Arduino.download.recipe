@@ -23,7 +23,7 @@
 				<key>url</key>
 				<string>https://www.arduino.cc/en/Main/Software</string>
 				<key>re_pattern</key>
-				<string>(https?:\/\/www.arduino.cc\/download_handler.php\?f=\/arduino-[\d\.]+-macosx.zip)</string>
+				<string>(https?:\/\/www.arduino.cc\/download_handler.php?f=\/arduino-[\d\.]+-macosx.zip)</string>
 				<key>result_output_var_name</key>
 				<string>DOWNLOAD_URL</string>
 			</dict>
