@@ -5,25 +5,25 @@
 	<key>Comment</key>
 	<string>Created with Recipe Robot v1.0.3 (https://github.com/homebysix/recipe-robot)</string>
 	<key>Description</key>
-	<string>Downloads the latest version of dockutil, creates a fileset, and copies it into your FileWave Server.</string>
+	<string>Downloads the latest version of Google Drive File Stream, creates a fileset, and copies it into your FileWave Server.</string>
 	<key>Identifier</key>
-	<string>com.github.allworkandnoplay.filewave.dockutil</string>
+	<string>com.github.allworkandnoplay.filewave.googledrivefilestream</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>dockutil</string>
+		<string>googledrivefilestream</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.6.1</string>
 	<key>ParentRecipe</key>
-	<string>com.github.allworkandnoplay.download.dockutil</string>
+	<string>com.github.allworkandnoplay.download.googledrivefilestream</string>
 	<key>Process</key>
 	<array>
 		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>fw_app_bundle_id</key>
-				<string>dockutil.cli.tool</string>
+				<string>org.google.googledrivefilestream</string>
 				<key>fw_app_version</key>
 				<string>%version%</string>
 				<key>fw_destination_root</key>
