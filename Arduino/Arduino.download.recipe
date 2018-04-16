@@ -23,9 +23,9 @@
 				<key>url</key>
 				<string>https://www.arduino.cc/en/Main/Software</string>
 				<key>re_pattern</key>
-				<string>(www\.arduino\.cc\/download_handler\.php\?f=\/arduino-[\d\.]\.[\d\.]\.[\d\.]-macosx\.zip)</string>
+				<string>(arduino-[\d\.]\.[\d\.]\.[\d\.]-macosx\.zip)</string>
 				<key>result_output_var_name</key>
-				<string>DOWNLOAD_URL</string>
+				<string>FILENAME_IN_URL</string>
 			</dict>
 		</dict>
 		<dict>
@@ -34,7 +34,7 @@
 			<key>Arguments</key>
 			<dict>
 				<key>url</key>
-				<string>https://%DOWNLOAD_URL%</string>
+				<string>https://downloads.arduino.cc/%FILENAME_IN_URL%</string>
 			</dict>
 		</dict>
 		<dict>
