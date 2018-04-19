@@ -23,7 +23,7 @@
 		<key>POLICY_TEMPLATE</key>
 		<string>PolicyTemplate.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
-		<string>Latest version of HP Printer Printer Essential Drivers directly from HP.</string>
+		<string>Downloads Latest PKG version of HP Printer Printer Essential Drivers directly from HP.</string>
 		<key>SELF_SERVICE_ICON</key>
 		<string>%NAME%.png</string>
 	</dict>
