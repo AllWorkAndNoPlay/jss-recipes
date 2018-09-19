@@ -25,7 +25,7 @@
 			<key>Arguments</key>
 			<dict>
 				<key>destination_path</key>
-				<string>%pathname%/expanded</string>
+				<string>%pathname%/</string>
 				<key>flat_pkg_path</key>
 				<string>%pathname%/downloads/%NAME%.pkg</string>
 			</dict>
