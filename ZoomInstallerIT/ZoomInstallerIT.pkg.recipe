@@ -41,7 +41,7 @@
 				<string>%RECIPE_CACHE_DIR%/expanded/zoomus.pkg</string>
 			</dict>
 			<key>Processor</key>
-			<string>FlatPkgUnpacker</string>
+			<string>PkgExtractor</string>
 		</dict>
 		<dict>
 			<key>Arguments</key>
