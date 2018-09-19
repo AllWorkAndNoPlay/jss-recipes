@@ -36,9 +36,9 @@
 			<key>Arguments</key>
 			<dict>
 				<key>destination_path</key>
-				<string>%RECIPE_CACHE_DIR%/expanded/Resources/zoomus.pkg</string>
-				<key>flat_pkg_path</key>
 				<string>%RECIPE_CACHE_DIR%/expanded2</string>
+				<key>flat_pkg_path</key>
+				<string>%RECIPE_CACHE_DIR%/expanded/Resources/zoomus.pkg</string>
 			</dict>
 			<key>Processor</key>
 			<string>FlatPkgUnpacker</string>
