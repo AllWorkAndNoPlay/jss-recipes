@@ -27,7 +27,7 @@
 				<key>flat_pkg_path</key>
 				<string>%pathname%/downloads/%NAME%.pkg</string>
 				<key>destination_path</key>
-				<string>%pathname%/%NAME%</string>
+				<string>%pathname%/%NAME%/expanded</string>
 			</dict>
 			<key>Processor</key>
 			<string>FlatPkgUnpacker</string>
