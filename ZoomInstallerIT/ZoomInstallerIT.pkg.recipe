@@ -24,10 +24,10 @@
 		<dict>
 			<key>Arguments</key>
 			<dict>
-				<key>flat_pkg_path</key>
-				<string>%pathname%/downloads/%NAME%.pkg</string>
 				<key>destination_path</key>
 				<string>%pathname%/expanded</string>
+				<key>flat_pkg_path</key>
+				<string>%pathname%/downloads/%NAME%.pkg</string>
 			</dict>
 			<key>Processor</key>
 			<string>FlatPkgUnpacker</string>
@@ -36,7 +36,7 @@
 			<key>Arguments</key>
 			<dict>
 				<key>input_plist_path</key>
-				<string>%pathname%/%NAME%/Applications/zoom.us.app/Contents/Info.plist</string>
+				<string>%pathname%/Applications/zoom.us.app/Contents/Info.plist</string>
 				<key>plist_version_key</key>
 				<string>CFBundleVersion</string>
 			</dict>
