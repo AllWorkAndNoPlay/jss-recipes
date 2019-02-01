@@ -30,7 +30,7 @@
 	<key>MinimumVersion</key>
 	<string>0.6.1</string>
 	<key>ParentRecipe</key>
-	<string>com.github.allworkandnoplay.download.dockutil</string>
+	<string>com.github.allworkandnoplay.pkg.dockutil</string>
 	<key>Process</key>
 	<array>
 		<dict>
