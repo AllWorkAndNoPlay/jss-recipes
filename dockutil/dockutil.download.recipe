@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads the current release of Dockutil from Github as pkg.</string>
     <key>Identifier</key>
-    <string>com.github.autopkg.allworkandnoplay.download.dockutil</string>
+    <string>com.github.allworkandnoplay.download.dockutil</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
