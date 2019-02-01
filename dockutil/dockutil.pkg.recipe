@@ -10,8 +10,6 @@
 	<string>com.github.allworkandnoplay.pkg.dockutil</string>
 	<key>Input</key>
 	<dict>
-		<key>BUNDLE_ID</key>
-		<string>org.google.drivefilestream</string>
 		<key>NAME</key>
 		<string>dockutil</string>
 	</dict>
