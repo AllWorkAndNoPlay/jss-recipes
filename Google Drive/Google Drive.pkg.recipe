@@ -16,12 +16,12 @@
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.allworkandnoplay.download.Google Drive</string>
+	<string>com.github.allworkandnoplay.download.GoogleDrive</string>
 	<key>Process</key>
 	<array>
         <dict>
             <key>Comment</key>
-            <string>Copy the embedded package out of the application bundle in the disk image.</string>
+            <string>Create a renamed copy of the pkg</string>
             <key>Arguments</key>
             <dict>
                 <key>source_pkg</key>
