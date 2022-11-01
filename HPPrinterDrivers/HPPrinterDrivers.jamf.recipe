@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of HPPrinterDrivers directly from HP and imports it into your JSS.</string>
 	<key>Identifier</key>
-	<string>com.github.allworkandnoplay.jamf.HPPrinterDriverspkg</string>
+	<string>com.github.allworkandnoplay.jamf.HPPrinterDrivers</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
