@@ -37,15 +37,6 @@
          <dict>
             <key>Arguments</key>
             <dict>
-               <key>predicate</key>
-               <string>%STOPPROCESSINGIF_PREDICATE%</string>
-            </dict>
-            <key>Processor</key>
-            <string>StopProcessingIf</string>
-         </dict>
-         <dict>
-            <key>Arguments</key>
-            <dict>
                <key>pkg_category</key>
                <string>%PKG_CATEGORY%</string>
                <key>pkg_notes</key>
