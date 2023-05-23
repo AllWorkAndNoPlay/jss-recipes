@@ -7,11 +7,11 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Webex Teams and creates a package.</string>
 	<key>Identifier</key>
-	<string>com.github.allworkandnoplay.pkg.WebexTeams</string>
+	<string>com.github.allworkandnoplay.pkg.WebexAppleSilicon</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>Webex Teams</string>
+		<string>WebexAppleSilicon</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
