@@ -60,16 +60,16 @@ https://www.cisco.com/c/dam/en/us/td/docs/collaboration/webex_centers/Collaborat
 			<string>CodeSignatureVerifier</string>
 		</dict>
 		<dict>
-            <key>Arguments</key>
-            <dict>
+			<key>Arguments</key>
+			<dict>
                 <key>pkg_path</key>
                 <string>%RECIPE_CACHE_DIR%/unarchiver/</string>
                 <key>extract_root</key>
                 <string>%RECIPE_CACHE_DIR%/unpack/</string>
-            </dict>
-            <key>Processor</key>
-            <string>PkgExtractor</string>
-        </dict>
+			</dict>
+			<key>Processor</key>
+			<string>PkgExtractor</string>
+		</dict>
 		<dict>
 			<key>Arguments</key>
 			<dict>
