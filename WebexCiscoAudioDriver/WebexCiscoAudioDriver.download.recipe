@@ -62,15 +62,15 @@ https://www.cisco.com/c/dam/en/us/td/docs/collaboration/webex_centers/Collaborat
 		<dict>
             <key>Arguments</key>
             <dict>
-                <key>pkg_payload_path</key>
+                <key>pkg_path</key>
                 <string>%RECIPE_CACHE_DIR%/unarchiver/CiscoAudioDeviceInstall.pkg</string>
-                <key>destination_path</key>
+                <key>extract_root</key>
                 <string>%RECIPE_CACHE_DIR%/unpack/</string>
                 <key>purge_destination</key>
                 <true/>
             </dict>
             <key>Processor</key>
-            <string>PkgPayloadUnpacker</string>
+            <string>PkgExtractor</string>
         </dict>
 		<dict>
 			<key>Arguments</key>
