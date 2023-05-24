@@ -37,7 +37,7 @@ https://www.cisco.com/c/dam/en/us/td/docs/collaboration/webex_centers/Collaborat
 				<key>archive_path</key>
 				<string>%pathname%</string>
 				<key>destination_path</key>
-				<string>%RECIPE_CACHE_DIR%/Unarchiver/</string>
+				<string>%RECIPE_CACHE_DIR%/unarchiver/</string>
 				<key>purge_destination</key>
 				<true/>
 			</dict>
