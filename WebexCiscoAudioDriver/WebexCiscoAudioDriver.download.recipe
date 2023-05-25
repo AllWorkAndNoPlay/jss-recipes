@@ -67,7 +67,7 @@ https://www.cisco.com/c/dam/en/us/td/docs/collaboration/webex_centers/Collaborat
 				<key>destination_path</key>
 				<string>%RECIPE_CACHE_DIR%/unpack/</string>
 				<key>skip_payload</key>
-				<True/>
+				<true/>
 				<key>purge_destination</key>
 				<true/>
 			</dict>
