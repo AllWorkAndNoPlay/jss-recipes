@@ -15,7 +15,7 @@ https://www.cisco.com/c/dam/en/us/td/docs/collaboration/webex_centers/Collaborat
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>CiscoAudioDeviceInstall</string>
+		<string>WebexCiscoAudioDriver</string>
 		<key>url</key>
 		<string>https://www.cisco.com/c/dam/en/us/td/docs/collaboration/webex_centers/Collaboration-Help/TS-Help-Portal-Support-Utilities/CiscoAudioDeviceInstall.zip</string>
 	</dict>
