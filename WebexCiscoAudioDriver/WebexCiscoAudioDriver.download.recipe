@@ -66,6 +66,8 @@ https://www.cisco.com/c/dam/en/us/td/docs/collaboration/webex_centers/Collaborat
 				<string>%RECIPE_CACHE_DIR%/unarchiver/%NAME%.pkg</string>
 				<key>destination_path</key>
 				<string>%RECIPE_CACHE_DIR%/unpack/</string>
+				<key>skip_payload</key>
+				<false/>
 				<key>purge_destination</key>
 				<true/>
 			</dict>
