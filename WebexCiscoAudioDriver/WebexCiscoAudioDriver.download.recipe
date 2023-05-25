@@ -66,8 +66,6 @@ https://www.cisco.com/c/dam/en/us/td/docs/collaboration/webex_centers/Collaborat
 				<string>%RECIPE_CACHE_DIR%/unarchiver/CiscoAudioDeviceInstall.pkg</string>
 				<key>destination_path</key>
 				<string>%RECIPE_CACHE_DIR%/unpack/</string>
-				<key>skip_payload</key>
-				<true/>
 				<key>purge_destination</key>
 				<true/>
 			</dict>
@@ -78,7 +76,7 @@ https://www.cisco.com/c/dam/en/us/td/docs/collaboration/webex_centers/Collaborat
 			<key>Arguments</key>
 			<dict>
 				<key>input_plist_path</key>
-				<string>%pathname%/unpack/Library/Audio/Plug-Ins/HAL/CiscoAudioDevice.driver/Contents/Resources/version.plist</string>
+				<string>%pathname%/unpack/Payload/Library/Audio/Plug-Ins/HAL/CiscoAudioDevice.driver/Contents/Info.plist</string>
 				<key>plist_version_key</key>
 				<string>CFBundleShortVersionString</string>
 			</dict>
