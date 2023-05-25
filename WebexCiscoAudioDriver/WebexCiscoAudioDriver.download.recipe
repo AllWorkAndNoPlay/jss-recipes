@@ -75,19 +75,6 @@ https://www.cisco.com/c/dam/en/us/td/docs/collaboration/webex_centers/Collaborat
 		<dict>
 			<key>Arguments</key>
 			<dict>
-				<key>flat_pkg_path</key>
-				<string>%RECIPE_CACHE_DIR%/unarchiver/CiscoAudioDeviceInstall.pkg</string>
-				<key>destination_path</key>
-				<string>%RECIPE_CACHE_DIR%/unpack/</string>
-				<key>purge_destination</key>
-				<true/>
-			</dict>
-			<key>Processor</key>
-			<string>FlatPkgUnpacker</string>
-		</dict>
-		<dict>
-			<key>Arguments</key>
-			<dict>
 				<key>input_plist_path</key>
 				<string>%pathname%/unpack/Payload/Library/Audio/Plug-Ins/HAL/CiscoAudioDevice.driver/Contents/Info.plist</string>
 				<key>plist_version_key</key>
