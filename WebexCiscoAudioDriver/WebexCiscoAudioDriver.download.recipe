@@ -8,6 +8,10 @@
 	<string>Downloads the latest version of Webex Cisco Audio Driver Package.
 URL from
 https://help.webex.com/en-us/article/WBX9000031110/Cisco-Webex-Audio-Driver-Package-Download-for-Mac
+download 
+https://www.cisco.com/c/dam/en/us/td/docs/collaboration/webex_centers/Collaboration-Help/TS-Help-Portal-Support-Utilities/CiscoAudioDeviceInstall/CiscoAudioDeviceInstall.pkg
+
+no longer
 https://www.cisco.com/c/dam/en/us/td/docs/collaboration/webex_centers/Collaboration-Help/TS-Help-Portal-Support-Utilities/CiscoAudioDeviceInstall.zip
 	</string>
 	<key>Identifier</key>
@@ -17,7 +21,7 @@ https://www.cisco.com/c/dam/en/us/td/docs/collaboration/webex_centers/Collaborat
 		<key>NAME</key>
 		<string>WebexCiscoAudioDriver</string>
 		<key>url</key>
-		<string>https://www.cisco.com/c/dam/en/us/td/docs/collaboration/webex_centers/Collaboration-Help/TS-Help-Portal-Support-Utilities/CiscoAudioDeviceInstall.zip</string>
+		<string>https://www.cisco.com/c/dam/en/us/td/docs/collaboration/webex_centers/Collaboration-Help/TS-Help-Portal-Support-Utilities/CiscoAudioDeviceInstall/CiscoAudioDeviceInstall.pkg</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
