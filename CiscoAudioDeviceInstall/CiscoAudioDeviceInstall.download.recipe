@@ -67,7 +67,7 @@ https://www.cisco.com/c/dam/en/us/td/docs/collaboration/webex_centers/Collaborat
 			<key>Arguments</key>
 			<dict>
 				<key>input_plist_path</key>
-				<string>%RECIPE_CACHE_DIR%/unpack/%NAME%.pkg/Payload/Library/Audio/Plug-Ins/HAL/CiscoAudioDevice.driver/Contents/Info.plist</string>
+				<string>%RECIPE_CACHE_DIR%/unpack/%NAME%.pkg/unpack/Payload/Library/Audio/Plug-Ins/HAL/CiscoAudioDevice.driver/Contents/Info.plist</string>
 				<key>plist_version_key</key>
 				<string>CFBundleShortVersionString</string>
 			</dict>
