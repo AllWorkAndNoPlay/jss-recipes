@@ -15,7 +15,7 @@ no longer
 https://www.cisco.com/c/dam/en/us/td/docs/collaboration/webex_centers/Collaboration-Help/TS-Help-Portal-Support-Utilities/CiscoAudioDeviceInstall.zip
 	</string>
 	<key>Identifier</key>
-	<string>com.github.allworkandnoplay.download.WebexCiscoAudioDriver</string>
+	<string>com.github.allworkandnoplay.download.CiscoAudioDeviceInstall</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>

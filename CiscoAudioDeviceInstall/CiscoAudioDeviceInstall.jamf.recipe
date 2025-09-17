@@ -7,11 +7,11 @@
 	<key>Description</key>
 	<string>Downloads the latest version of HPPrinterDrivers directly from HP and imports it into your JSS.</string>
 	<key>Identifier</key>
-	<string>com.github.allworkandnoplay.jamf.WebexCiscoAudioDriver</string>
+	<string>com.github.allworkandnoplay.jamf.CiscoAudioDeviceInstall</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-        <string>WebexCiscoAudioDeviceInstall</string>
+        <string>CiscoAudioDeviceInstall</string>
         <key>CATEGORY</key>
 		<string>Webex</string>
         <key>PKG_CATEGORY</key>
@@ -22,7 +22,7 @@
 	<key>MinimumVersion</key>
 	<string>2.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.allworkandnoplay.pkg.WebexCiscoAudioDriver</string>
+	<string>com.github.allworkandnoplay.pkg.CiscoAudioDeviceInstall</string>
 	<key>Process</key>
       <array>
          <dict>

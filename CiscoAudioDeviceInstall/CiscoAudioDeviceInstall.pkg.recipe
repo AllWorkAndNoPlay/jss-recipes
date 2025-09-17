@@ -7,16 +7,16 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Webex Teams and creates a package.</string>
 	<key>Identifier</key>
-	<string>com.github.allworkandnoplay.pkg.WebexCiscoAudioDriver</string>
+	<string>com.github.allworkandnoplay.pkg.CiscoAudioDeviceInstall</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>WebexCiscoAudioDeviceInstall</string>
+		<string>CiscoAudioDeviceInstall</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.allworkandnoplay.download.WebexCiscoAudioDriver</string>
+	<string>com.github.allworkandnoplay.download.CiscoAudioDeviceInstall</string>
 	<key>Process</key>
 	<array>
         <dict>
