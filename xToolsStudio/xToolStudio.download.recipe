@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads the latest version of xTool Studio.</string>
     <key>Identifier</key>
-    <string>com.github.autopkg.download.xToolStudio</string>
+    <string>com.github.allworkandnoplay.download.xToolStudio</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>

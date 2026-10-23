@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads the latest version of xTool Studio, packages it, and uploads it to Jamf Pro.</string>
     <key>Identifier</key>
-    <string>com.github.autopkg.jamf.xToolStudio</string>
+    <string>com.github.allworkandnoplay.jamf.xToolStudio</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
@@ -28,7 +28,7 @@
     <key>MinimumVersion</key>
     <string>2.3.1</string>
     <key>ParentRecipe</key>
-    <string>com.github.autopkg.pkg.xToolStudio</string>
+    <string>com.github.allworkandnoplay.pkg.xToolStudio</string>
     <key>Process</key>
     <array>
         <dict>
