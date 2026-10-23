@@ -13,7 +13,7 @@
         <key>SEARCH_URL</key>
         <string>https://www.xtool.com/pages/software</string>
         <key>SEARCH_PATTERN</key>
-        <string>(?P&lt;url&gt;https://[a-zA-Z0-9./-]+arm64[a-zA-Z0-9./-]+\.dmg)</string>
+        <string>(?P&lt;url&gt;https://[0-9a-zA-Z./-]+arm64[0-9a-zA-Z./-]+.dmg)</string>
     </dict>
     <key>MinimumVersion</key>
     <string>1.0.0</string>
