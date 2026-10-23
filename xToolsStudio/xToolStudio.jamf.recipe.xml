@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Description</key>
+    <string>Downloads the latest version of xTool Studio, packages it, and uploads it to Jamf Pro.</string>
+    <key>Identifier</key>
+    <string>com.github.autopkg.jamf.xToolStudio</string>
+    <key>Input</key>
+    <dict>
+        <key>NAME</key>
+        <string>xToolStudio</string>
+        <key>CATEGORY</key>
+        <string>Applications</string>
+        <key>GROUP_NAME</key>
+        <string>%NAME%-update-smart</string>
+        <key>GROUP_TEMPLATE</key>
+        <string>SmartGroupTemplate.xml</string>
+        <key>POLICY_CATEGORY</key>
+        <string>Testing</string>
+        <key>POLICY_TEMPLATE</key>
+        <string>PolicyTemplate.xml</string>
+        <key>POLICY_NAME</key>
+        <string>Install Latest %NAME%</string>
+        <key>UPDATE_PREDICATE</key>
+        <string>pkg_uploaded == False</string>
+    </dict>
+    <key>MinimumVersion</key>
+    <string>2.3.1</string>
+    <key>ParentRecipe</key>
+    <string>com.github.autopkg.pkg.xToolStudio</string>
+    <key>Process</key>
+    <array>
+        <dict>
+            <key>Processor</key>
+            <string>com.github.grahampugh.jamf-upload.processors/JamfCategoryUploader</string>
+            <key>Arguments</key>
+            <dict>
+                <key>category_name</key>
+                <string>%CATEGORY%</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>Processor</key>
+            <string>com.github.grahampugh.jamf-upload.processors/JamfPackageUploader</string>
+            <key>Arguments</key>
+            <dict>
+                <key>pkg_category</key>
+                <string>%CATEGORY%</string>
+            </dict>
+        </dict>
+    </array>
+</dict>
+</plist>
